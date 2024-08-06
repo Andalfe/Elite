@@ -228,8 +228,7 @@ DODO__EDGE = ((0,1),(1,2),(2,3),(3,4),(4,0),(5,10),(10,6),(6,11),(11,7),(7,12),(
 
 
 class Ship:
-	# nextBookRef = int(150)
-	# bookGroup = []
+
 
 	def __init__(self, name,vertex_list,edges_list,faces_list,canisters_on_demise,targetable_area,max_edge_count,gun_vertex,explosion_count,number_of_vertices,number_of_edges,bounty,number_of_faces,visibility_distance,max_energy,max_speed,normals_scaled,laser_power,missiles):
 		self.name = str(name)
@@ -255,30 +254,21 @@ class Ship:
 
 
 
-
-
-
-
-
-
-
 	def draw_ship(ship_name):
 		glEnable(GL_DEPTH_TEST)
 		glPolygonMode(GL_FRONT_AND_BACK, GL_FILL)
 
 
 		glBegin(GL_TRIANGLE_STRIP)
-
-		# glBegin(GL_TRIANGLE_FAN)
-
 		for x in ship_name.edges_list:
 			for vertex in x:
-				glColor3fv ((0,0,0))
+				glColor3fv ((0.01, 0.01, 0.01))
 				glVertex3fv(ship_name.vertex_list[vertex])
 		glEnd()
 
+	
 
-		glLineWidth(3)
+		glLineWidth(1)
 		glEnable(GL_POLYGON_OFFSET_FILL)
 		glPolygonOffset(2,2)
 
@@ -287,8 +277,15 @@ class Ship:
 		for edge in ship_name.edges_list:
 			for cubeVertex in edge:
 				glColor3fv ((300,300,300))
+				# glColor3fv ((45,560,456))
 				glVertex3fv(ship_name.vertex_list[cubeVertex])
 		glEnd()
+
+	def target_ship():
+		pass
+
+
+
 
 
 

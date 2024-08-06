@@ -1,0 +1,7 @@
+PWD /home/andy/Documents/MX_backup/code/old_files/ELITE_PI
+INPUT /etc/texmf/web2c/texmf.cnf
+INPUT /usr/share/texmf/web2c/texmf.cnf
+INPUT /usr/share/texlive/texmf-dist/web2c/texmf.cnf
+INPUT /var/lib/texmf/web2c/xetex/xelatex.fmt
+INPUT main_game_loop.py
+OUTPUT output/main_game_loop.log

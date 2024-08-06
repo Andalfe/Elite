@@ -1,0 +1,18 @@
+# Fdb version 4
+["xdvipdfmx"] 0 "output/main_game_loop.xdv" "output/main_game_loop.pdf" "output/main_game_loop" 0 -1
+  "output/main_game_loop.xdv" 0 -1 0 "xelatex"
+  (generated)
+  "output/main_game_loop.pdf"
+  (rewritten before read)
+["xelatex"] 1719996903 "main_game_loop.py" "output/main_game_loop.xdv" "main_game_loop" 1719996904 2
+  "/etc/texmf/web2c/texmf.cnf" 1691178423 475 c0e671620eb5563b2130f56340a5fde8 ""
+  "/usr/share/texlive/texmf-dist/web2c/texmf.cnf" 1681034085 39561 34c98e380bf7c7201ee6a7909aff625a ""
+  "/usr/share/texmf/web2c/texmf.cnf" 1681034085 39561 34c98e380bf7c7201ee6a7909aff625a ""
+  "/var/lib/texmf/web2c/xetex/xelatex.fmt" 1707221983 8749057 a50b654e09b610a5b0570bc81ce2b930 ""
+  "main_game_loop.py" 1713127006 3697 9a0d2a70795c4b82711f49495abfea0b ""
+  "output/main_game_loop.aux" 1719996903 32 3985256e7290058c681f74d7a3565a19 "xelatex"
+  (generated)
+  "output/main_game_loop.aux"
+  "output/main_game_loop.log"
+  "output/main_game_loop.xdv"
+  (rewritten before read)
